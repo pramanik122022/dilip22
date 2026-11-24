@@ -1,0 +1,4 @@
+if c, err := parseTimeComparator(baseValue, base0p); err != nil {
+return nil, err
+} else if c.Enabled {
+comparators = append (comparators, c)
